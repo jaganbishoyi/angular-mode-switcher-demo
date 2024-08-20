@@ -1,10 +1,10 @@
 {
   "name": "angular-light-dark-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --base-href https://jaganb.dev/angular-light-dark-mode",
+    "build": "ng build --configuration production --base-href https://jaganb.dev/angular-mode-switcher-demo/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
