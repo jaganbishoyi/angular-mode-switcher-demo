@@ -1,0 +1,1 @@
+body{margin:0}body.dark{--bgColor: black;--textColor: white;--borderColor: white}body.light{--bgColor: white;--textColor: black;--borderColor: black}main{display:flex;height:100vh;justify-content:center;align-items:center;flex-direction:column;background-color:var(--bgColor);color:var(--textColor)}
