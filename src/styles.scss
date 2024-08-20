@@ -1,23 +1,23 @@
 @import "./assets/styles/variables";
 
 body {
-  margin: 0
+    margin: 0
 }
 
 body.dark {
-  @include darken();
+    @include darken();
 }
 
 body.light {
-  @include lighten();
+    @include lighten();
 }
 
 main {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--bgColor);
-  color: var(--textColor);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bgColor);
+    color: var(--textColor);
 }
