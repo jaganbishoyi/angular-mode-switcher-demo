@@ -1,6 +1,12 @@
 @import "light";
 @import "dark";
 
+$header-height: 60px;
+$header-height-responsive-view: 60px;
+
+$footer-height: 70px;
+$footer-height-responsive-view: 70px;
+
 // mixin that enables css variables in light mode
 @mixin lighten() {
     --bgColor: #{$bgColor_light};
