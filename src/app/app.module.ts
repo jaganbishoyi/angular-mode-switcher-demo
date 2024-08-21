@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
-import { DemoComponent } from './demo/demo.component';
 import { LayoutsModule } from './shared/layouts/public-layout/layouts.module';
 import { PageNotFoundComponent } from './views/public/page-not-found/page-not-found.component';
 
@@ -16,7 +15,6 @@ import { PageNotFoundComponent } from './views/public/page-not-found/page-not-fo
 @NgModule({
     declarations: [
         AppComponent,
-        DemoComponent,
         PageNotFoundComponent
     ],
     imports: [
