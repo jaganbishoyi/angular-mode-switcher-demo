@@ -6,6 +6,7 @@
     --bgColor: #{$bgColor_light};
     --textColor: #{$textColor_light};
     --borderColor: #{$borderColor_light};
+    --boxShadowColor: #{$boxShadow_light};
 }
 
 // mixin that enables css variables in dark mode
@@ -13,4 +14,5 @@
     --bgColor: #{$bgColor_dark};
     --textColor: #{$textColor_dark};
     --borderColor: #{$borderColor_dark};
+    --boxShadowColor: #{$boxShadow_dark};
 }
