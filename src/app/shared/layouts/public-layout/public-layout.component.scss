@@ -16,6 +16,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
+    .public-header {
+        height: $header-height-responsive-view;
+    }
+
     .body-content {
         margin-top: $header-height-responsive-view;
         min-height: calc(100vh - #{$header-height-responsive-view} - #{$footer-height-responsive-view});
