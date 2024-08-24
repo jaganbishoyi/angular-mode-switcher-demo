@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IConfig } from 'ng-mode-switcher'
+import { IConfig } from 'ngx-mode-switcher'
 
 @Component({
     selector: 'app-root',
