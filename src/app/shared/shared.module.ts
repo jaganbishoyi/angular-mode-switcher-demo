@@ -1,17 +1,17 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
-import { NgModeSwitcherModule } from 'ng-mode-switcher';
+import { NgxModeSwitcherModule } from 'ngx-mode-switcher';
 
 
 @NgModule({
     declarations: [],
     imports: [
         CommonModule,
-        NgModeSwitcherModule
+        NgxModeSwitcherModule
     ],
     exports: [
         CommonModule,
-        NgModeSwitcherModule
+        NgxModeSwitcherModule
     ],
 })
 export class SharedModule { }
