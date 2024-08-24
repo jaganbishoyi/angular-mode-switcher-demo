@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IConfig } from 'ng-mode-switcher'
+import { IConfig } from 'ngx-mode-switcher'
 
 @Component({
     selector: 'app-root',
@@ -7,7 +7,7 @@ import { IConfig } from 'ng-mode-switcher'
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    title = 'angular-light-dark-mode';
+    title = 'demo-template';
 
     config: IConfig = {
         legend: {

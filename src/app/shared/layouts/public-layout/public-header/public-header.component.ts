@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IConfig } from 'ng-mode-switcher';
+import { IConfig } from 'ngx-mode-switcher';
 
 @Component({
     selector: 'app-public-header',

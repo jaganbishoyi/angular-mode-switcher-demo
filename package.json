@@ -1,6 +1,6 @@
 {
-    "name": "angular-light-dark-mode",
-    "version": "2.1.0",
+    "name": "demo-template",
+    "version": "2.2.0",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -18,10 +18,11 @@
         "@angular/platform-browser": "^14.2.0",
         "@angular/platform-browser-dynamic": "^14.2.0",
         "@angular/router": "^14.2.0",
-        "angular-light-dark-mode": "file:",
+        "angular-demo-template": "file:",
         "bootstrap": "^5.3.3",
+        "demo-template": "file:",
         "ng-http-loader": "^7.0.0",
-        "ng-mode-switcher": "^1.1.0",
+        "ngx-mode-switcher": "^2.2.0",
         "ngx-toastr": "^13.0.0",
         "rxjs": "~7.5.0",
         "tslib": "^2.3.0",

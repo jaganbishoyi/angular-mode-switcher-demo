@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "angular-light-dark-mode": {
+        "demo-template": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -71,10 +71,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "angular-light-dark-mode:build:production"
+                            "browserTarget": "demo-template:build:production"
                         },
                         "development": {
-                            "browserTarget": "angular-light-dark-mode:build:development"
+                            "browserTarget": "demo-template:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "angular-light-dark-mode:build"
+                        "browserTarget": "demo-template:build"
                     }
                 },
                 "test": {
