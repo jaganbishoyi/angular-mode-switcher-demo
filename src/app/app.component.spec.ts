@@ -21,9 +21,9 @@ describe('AppComponent', () => {
         expect(app).toBeTruthy();
     });
 
-    it("should have as title 'demo-template'", () => {
+    it("should have as title 'angular-light-dark-mode'", () => {
         const fixture = TestBed.createComponent(AppComponent);
         const app = fixture.componentInstance;
-        expect(app.title).toEqual('demo-template');
+        expect(app.title).toEqual('angular-light-dark-mode');
     });
 });
