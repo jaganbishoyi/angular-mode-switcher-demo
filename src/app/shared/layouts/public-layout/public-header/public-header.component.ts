@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IConfig } from 'ngx-mode-switcher';
 
 @Component({
@@ -6,7 +6,7 @@ import { IConfig } from 'ngx-mode-switcher';
     templateUrl: './public-header.component.html',
     styleUrls: ['./public-header.component.scss']
 })
-export class PublicHeaderComponent implements OnInit {
+export class PublicHeaderComponent {
     title = "Angular Mode Switcher";
 
     config: IConfig = {
@@ -16,8 +16,4 @@ export class PublicHeaderComponent implements OnInit {
         }
     };
     constructor() { }
-
-    ngOnInit(): void {
-    }
-
 }

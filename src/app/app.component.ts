@@ -7,7 +7,7 @@ import { IConfig } from 'ngx-mode-switcher'
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    title = 'angular-light-dark-mode';
+    title = 'demo-template';
 
     config: IConfig = {
         legend: {

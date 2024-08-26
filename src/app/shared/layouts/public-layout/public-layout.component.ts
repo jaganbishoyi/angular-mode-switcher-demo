@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-public-layout',
@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./public-layout.component.scss'],
 })
 
-export class PublicLayoutComponent implements OnInit {
-
+export class PublicLayoutComponent {
     constructor() { }
-
-    ngOnInit(): void {
-    }
 }
