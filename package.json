@@ -1,6 +1,6 @@
 {
     "name": "angular-light-dark-mode",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -21,7 +21,7 @@
         "angular-light-dark-mode": "file:",
         "bootstrap": "^5.3.3",
         "ng-http-loader": "^7.0.0",
-        "ngx-mode-switcher": "^2.2.0",
+        "ngx-mode-switcher": "^2.2.1",
         "ngx-toastr": "^13.0.0",
         "rxjs": "~7.5.0",
         "tslib": "^2.3.0",
